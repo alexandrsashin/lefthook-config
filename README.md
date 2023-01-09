@@ -24,3 +24,5 @@ UBUNTU_CODENAME=bionic
 ```
 
 git version: 2.30.0
+
+**Issue**: https://github.com/evilmartians/lefthook/issues/415
