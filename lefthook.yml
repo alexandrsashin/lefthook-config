@@ -1,0 +1,9 @@
+pre-commit:
+  piped: true
+  commands:
+    prettier:
+      glob: "*.js"
+      run: npx prettier {staged_files} --ignore-unknown --write
+    eslint:
+      glob: "*.js"
+      run: npx eslint {staged_files} --fix

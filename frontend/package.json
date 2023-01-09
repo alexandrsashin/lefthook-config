@@ -1,0 +1,26 @@
+{
+  "name": "lefthook-config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrsashin/lefthook-config.git"
+  },
+  "keywords": [
+    "lefthook"
+  ],
+  "author": "Alexandr Sashin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandrsashin/lefthook-config/issues"
+  },
+  "homepage": "https://github.com/alexandrsashin/lefthook-config#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "lefthook": "^1.2.6",
+    "prettier": "^2.8.2"
+  }
+}
