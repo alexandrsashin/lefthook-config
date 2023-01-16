@@ -2,13 +2,16 @@
 
 Config for https://github.com/evilmartians/lefthook can be used for Node.js application.
 
-You can see good work of `eslint`, but `prettier` works endlessly on pre-commit. In my opinion, it is connected with these issues:
+Such config uses `eslint` and `prettier` for code formatting and can be used as a solution for issues:
+
 - ["The command line is too long." issue on Windows](https://github.com/evilmartians/lefthook/issues/41)
 - [pre-commit hook command doesn't work with prettier](https://github.com/evilmartians/lefthook/issues/203)
 - [Lefthook not running hooks when called from sub-directory](https://github.com/evilmartians/lefthook/issues/215)
+- [Prettier works incorrectly with lefthook](https://github.com/evilmartians/lefthook/issues/415)
 
 Info about local machine:
-```
+
+```shell
 NAME="Linux Mint"
 VERSION="19.1 (Tessa)"
 ID=linuxmint
@@ -24,5 +27,3 @@ UBUNTU_CODENAME=bionic
 ```
 
 git version: 2.30.0
-
-**Issue**: [Prettier works incorrectly with lefthook](https://github.com/evilmartians/lefthook/issues/415)

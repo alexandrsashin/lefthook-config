@@ -2,10 +2,12 @@ pre-commit:
   piped: true
   commands:
     prettier:
+      root: frontend/
       glob: "*.js"
       interactive: true
-      run: npx prettier {staged_files} --ignore-unknown --write
+      run: yarn prettier {staged_files} --ignore-unknown --write
     eslint:
+      root: frontend/
       glob: "*.js"
       interactive: true
-      run: npx eslint {staged_files} --fix
+      run: yarn eslint {staged_files} --fix
